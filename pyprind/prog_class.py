@@ -162,7 +162,7 @@ class Prog():
     def _print_title(self):
         """ Prints tracking title at initialization. """
         if self.title:
-            self._stream_out('{}\n'.format(self.title))
+            self._stream_out('\r{}\n'.format(self.title))
             self._stream_flush()
 
     def _cache_eta(self):
